@@ -67,7 +67,7 @@ $(function(){
             $newCard
                 .addClass('card right-inactive')
                 .append($('<p></p>').text(
-                    data.Sentence))
+                    data.sentence))
                 .append($('<input>').attr({
                     type: 'hidden',
                     name: 'sentenceIndex',
@@ -76,7 +76,7 @@ $(function(){
                 .append($('<input>').attr({
                     type: 'hidden',
                     name: 'sentenceId',
-                    value: data.SentenceId
+                    value: data.sentenceid
                 }));
                 
             $('.card-container').append($newCard);

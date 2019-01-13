@@ -39,9 +39,9 @@
                     <div class="card-container">
                         <% for(let i=0; i < sentences.length; i++) { %>
                         <div class="card <%= i == 0 ? "active" : "right-inactive" %>">
-                            <p><%= sentences[i].Sentence %></p>
+                            <p><%= sentences[i].sentence %></p>
                             <input type="hidden" name="sentenceIndex" value="<%= sentences[i].Index %>">
-                            <input type="hidden" name="sentenceId" value="<%= sentences[i].SentenceId %>">
+                            <input type="hidden" name="sentenceId" value="<%= sentences[i].sentenceid %>">
                         </div>
                         <% } %>
                     </div>

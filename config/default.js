@@ -1,9 +1,9 @@
 const config = {
   port: 8080,
   database: {
-    DATABASE: 'mapa_pressao-01',
-    USERNAME: 'root',
-    PASSWORD: '123456',
+    DATABASE: 'twitter-database',
+    USERNAME: 'postgres',
+    PASSWORD: 'postgres',
     HOST: 'localhost'
   }
 };

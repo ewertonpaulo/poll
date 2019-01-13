@@ -21,7 +21,7 @@ router.post('/vote', [
     ], (req, res) => {
         const errors = validationResult(req);
 
-        let row = query.getSentenceByMagnitude(1); 
+        let row = query.getSentenceByMagnitude(1);
         res.send(row);
 
         if (errors.isEmpty()) {
