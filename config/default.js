@@ -1,10 +1,10 @@
 const config = {
   port: 8080,
   database: {
-    DATABASE: 'twitter-database',
+    DATABASE: 'poll',
     USERNAME: 'postgres',
     PASSWORD: 'postgres',
-    HOST: 'localhost'
+    HOST: '200.129.102.27'
   }
 };
 
