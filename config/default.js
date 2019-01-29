@@ -1,5 +1,5 @@
 const config = {
-  port: 8080,
+  port: 3000,
   database: {
     DATABASE: 'poll',
     USERNAME: 'postgres',
